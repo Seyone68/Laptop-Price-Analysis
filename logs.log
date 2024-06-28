@@ -1,0 +1,158 @@
+2024-06-28 19:52:52,776:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-06-28 19:52:52,776:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-06-28 19:52:52,776:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-06-28 19:52:52,776:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-06-28 19:52:55,527:INFO:PyCaret AnomalyExperiment
+2024-06-28 19:52:55,527:INFO:Logging name: anomaly-default-name
+2024-06-28 19:52:55,531:INFO:ML Usecase: MLUsecase.ANOMALY
+2024-06-28 19:52:55,531:INFO:version 3.3.2
+2024-06-28 19:52:55,531:INFO:Initializing setup()
+2024-06-28 19:52:55,531:INFO:self.USI: 0b39
+2024-06-28 19:52:55,531:INFO:self._variable_keys: {'exp_name_log', '_ml_usecase', 'idx', 'pipeline', 'html_param', 'exp_id', 'USI', 'data', 'X', 'memory', 'log_plots_param', 'logging_param', 'n_jobs_param', 'seed', 'gpu_param', '_available_plots', 'gpu_n_jobs_param'}
+2024-06-28 19:52:55,531:INFO:Checking environment
+2024-06-28 19:52:55,531:INFO:python_version: 3.9.5
+2024-06-28 19:52:55,531:INFO:python_build: ('tags/v3.9.5:0a7dcbd', 'May  3 2021 17:27:52')
+2024-06-28 19:52:55,531:INFO:machine: AMD64
+2024-06-28 19:52:55,545:INFO:platform: Windows-10-10.0.22631-SP0
+2024-06-28 19:52:55,553:INFO:Memory: svmem(total=34182582272, available=8179466240, percent=76.1, used=26003116032, free=8179466240)
+2024-06-28 19:52:55,554:INFO:Physical Core: 6
+2024-06-28 19:52:55,554:INFO:Logical Core: 12
+2024-06-28 19:52:55,554:INFO:Checking libraries
+2024-06-28 19:52:55,554:INFO:System:
+2024-06-28 19:52:55,554:INFO:    python: 3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)]
+2024-06-28 19:52:55,554:INFO:executable: c:\Users\ACER\AppData\Local\Programs\Python\Python39\python.exe
+2024-06-28 19:52:55,554:INFO:   machine: Windows-10-10.0.22631-SP0
+2024-06-28 19:52:55,554:INFO:PyCaret required dependencies:
+2024-06-28 19:52:55,561:INFO:                 pip: 24.1.1
+2024-06-28 19:52:55,562:INFO:          setuptools: 56.0.0
+2024-06-28 19:52:55,562:INFO:             pycaret: 3.3.2
+2024-06-28 19:52:55,562:INFO:             IPython: 7.23.0
+2024-06-28 19:52:55,562:INFO:          ipywidgets: 7.7.1
+2024-06-28 19:52:55,562:INFO:                tqdm: 4.64.0
+2024-06-28 19:52:55,562:INFO:               numpy: 1.24.2
+2024-06-28 19:52:55,562:INFO:              pandas: 1.5.3
+2024-06-28 19:52:55,562:INFO:              jinja2: 3.1.2
+2024-06-28 19:52:55,562:INFO:               scipy: 1.8.1
+2024-06-28 19:52:55,562:INFO:              joblib: 1.3.2
+2024-06-28 19:52:55,562:INFO:             sklearn: 1.4.2
+2024-06-28 19:52:55,562:INFO:                pyod: 2.0.1
+2024-06-28 19:52:55,562:INFO:            imblearn: 0.12.3
+2024-06-28 19:52:55,562:INFO:   category_encoders: 2.6.3
+2024-06-28 19:52:55,562:INFO:            lightgbm: 3.3.5
+2024-06-28 19:52:55,562:INFO:               numba: 0.59.1
+2024-06-28 19:52:55,562:INFO:            requests: 2.31.0
+2024-06-28 19:52:55,562:INFO:          matplotlib: 3.5.2
+2024-06-28 19:52:55,562:INFO:          scikitplot: 0.3.7
+2024-06-28 19:52:55,562:INFO:         yellowbrick: 1.5
+2024-06-28 19:52:55,562:INFO:              plotly: 5.22.0
+2024-06-28 19:52:55,562:INFO:    plotly-resampler: Not installed
+2024-06-28 19:52:55,562:INFO:             kaleido: 0.2.1
+2024-06-28 19:52:55,563:INFO:           schemdraw: 0.15
+2024-06-28 19:52:55,563:INFO:         statsmodels: 0.13.5
+2024-06-28 19:52:55,563:INFO:              sktime: 0.26.0
+2024-06-28 19:52:55,563:INFO:               tbats: 1.1.3
+2024-06-28 19:52:55,563:INFO:            pmdarima: 2.0.4
+2024-06-28 19:52:55,563:INFO:              psutil: 6.0.0
+2024-06-28 19:52:55,563:INFO:          markupsafe: 2.1.2
+2024-06-28 19:52:55,563:INFO:             pickle5: Not installed
+2024-06-28 19:52:55,563:INFO:         cloudpickle: 3.0.0
+2024-06-28 19:52:55,563:INFO:         deprecation: 2.1.0
+2024-06-28 19:52:55,563:INFO:              xxhash: 3.4.1
+2024-06-28 19:52:55,563:INFO:           wurlitzer: Not installed
+2024-06-28 19:52:55,563:INFO:PyCaret optional dependencies:
+2024-06-28 19:52:55,596:INFO:                shap: 0.45.1
+2024-06-28 19:52:55,596:INFO:           interpret: Not installed
+2024-06-28 19:52:55,596:INFO:                umap: Not installed
+2024-06-28 19:52:55,596:INFO:     ydata_profiling: Not installed
+2024-06-28 19:52:55,596:INFO:  explainerdashboard: Not installed
+2024-06-28 19:52:55,596:INFO:             autoviz: Not installed
+2024-06-28 19:52:55,596:INFO:           fairlearn: Not installed
+2024-06-28 19:52:55,597:INFO:          deepchecks: Not installed
+2024-06-28 19:52:55,597:INFO:             xgboost: 1.7.4
+2024-06-28 19:52:55,597:INFO:            catboost: 1.2
+2024-06-28 19:52:55,597:INFO:              kmodes: Not installed
+2024-06-28 19:52:55,597:INFO:             mlxtend: Not installed
+2024-06-28 19:52:55,597:INFO:       statsforecast: Not installed
+2024-06-28 19:52:55,597:INFO:        tune_sklearn: Not installed
+2024-06-28 19:52:55,597:INFO:                 ray: Not installed
+2024-06-28 19:52:55,597:INFO:            hyperopt: Not installed
+2024-06-28 19:52:55,597:INFO:              optuna: Not installed
+2024-06-28 19:52:55,597:INFO:               skopt: Not installed
+2024-06-28 19:52:55,597:INFO:              mlflow: Not installed
+2024-06-28 19:52:55,597:INFO:              gradio: Not installed
+2024-06-28 19:52:55,597:INFO:             fastapi: Not installed
+2024-06-28 19:52:55,597:INFO:             uvicorn: Not installed
+2024-06-28 19:52:55,597:INFO:              m2cgen: Not installed
+2024-06-28 19:52:55,597:INFO:           evidently: Not installed
+2024-06-28 19:52:55,598:INFO:               fugue: Not installed
+2024-06-28 19:52:55,598:INFO:           streamlit: 1.23.1
+2024-06-28 19:52:55,598:INFO:             prophet: 1.1.2
+2024-06-28 19:52:55,598:INFO:None
+2024-06-28 19:52:55,598:INFO:Set up data.
+2024-06-28 19:52:55,609:INFO:Set up index.
+2024-06-28 19:52:55,609:INFO:Assigning column types.
+2024-06-28 19:52:55,613:INFO:Engine successfully changes for model 'kmeans' to 'sklearn'.
+2024-06-28 19:52:59,477:INFO:Engine successfully changes for model 'dbscan' to 'sklearn'.
+2024-06-28 19:52:59,484:INFO:Preparing preprocessing pipeline...
+2024-06-28 19:52:59,484:INFO:Set up simple imputation.
+2024-06-28 19:52:59,489:INFO:Set up encoding of categorical features.
+2024-06-28 19:53:00,227:INFO:Finished creating preprocessing pipeline.
+2024-06-28 19:53:00,235:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\ACER\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Price'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Manufacturer', 'Model Name',
+                                             'Category', 'Screen Size',
+                                             'Screen', 'CPU', 'RAM', ' Storage',
+                                             'GPU', 'Operating System',
+                                             'Operating System Versi...
+                 TransformerWrapper(include=['Manufacturer', 'Model Name',
+                                             'Category', 'Screen Size',
+                                             'Screen', 'CPU', 'RAM', ' Storage',
+                                             'GPU', 'Operating System',
+                                             'Operating System Version',
+                                             'Weight'],
+                                    transformer=OneHotEncoder(cols=['Manufacturer',
+                                                                    'Model '
+                                                                    'Name',
+                                                                    'Category',
+                                                                    'Screen '
+                                                                    'Size',
+                                                                    'Screen',
+                                                                    'CPU',
+                                                                    'RAM',
+                                                                    ' Storage',
+                                                                    'GPU',
+                                                                    'Operating '
+                                                                    'System',
+                                                                    'Operating '
+                                                                    'System '
+                                                                    'Version',
+                                                                    'Weight'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True)))])
+2024-06-28 19:53:00,235:INFO:Creating final display dataframe.
+2024-06-28 19:53:00,619:INFO:Setup _display_container:                  Description                 Value
+0                 Session id                    42
+1        Original data shape             (977, 13)
+2     Transformed data shape            (977, 995)
+3           Numeric features                     1
+4       Categorical features                    12
+5   Rows with missing values                 13.9%
+6                 Preprocess                  True
+7            Imputation type                simple
+8         Numeric imputation                  mean
+9     Categorical imputation                  mode
+10  Maximum one-hot encoding                    -1
+11           Encoding method                  None
+12                  CPU Jobs                    -1
+13                   Use GPU                 False
+14            Log Experiment                 False
+15           Experiment Name  anomaly-default-name
+16                       USI                  0b39
+2024-06-28 19:53:00,628:INFO:setup() successfully completed in 5.1s...............
